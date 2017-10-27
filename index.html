@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script src="https://unpkg.com/systemjs@0.20.12/dist/system.js"></script>
+		<script>
+			System.config({
+				packages : {
+					"dist" : {
+						"defaultExtension" : "js",
+						"main" : "main"
+					}
+				}
+			})
+			System.import("dist");
+		</script>
+	</body>
+</html>
